@@ -36,15 +36,15 @@ Node.js Application
 
 Go to the nodeapp directory:
 
-    cd nodeapp
+cd nodeapp
 
 Install the dependencies:
 
-    npm install
+npm install
 
 Start the application:
 
-    node app.js
+node app.js
 
 The application runs on:
 
@@ -54,15 +54,15 @@ http://localhost:8080
 
 Go to the Terraform directory:
 
-    cd terraform
+cd terraform
 
 Initialize Terraform:
 
-    terraform init
+terraform init
 
 Create the deployment:
 
-    terraform apply
+terraform apply
 
 The application will be available on:
 
