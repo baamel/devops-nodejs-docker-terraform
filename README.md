@@ -36,5 +36,45 @@ Node.js Application
 
 Go to the nodeapp directory:
 
-```bash
-cd nodeapp
+    cd nodeapp
+
+Install the dependencies:
+
+    npm install
+
+Start the application:
+
+    node app.js
+
+The application runs on:
+
+http://localhost:8080
+
+### 2. Deploy using Docker and Terraform
+
+Go to the Terraform directory:
+
+    cd terraform
+
+Initialize Terraform:
+
+    terraform init
+
+Create the deployment:
+
+    terraform apply
+
+The application will be available on:
+
+http://localhost:8080
+
+## Project Status
+
+Currently implemented:
+
+- Node.js application
+- Express.js server
+- Docker containerization
+- Terraform infrastructure automation
+- Git repository
+- GitHub repository
